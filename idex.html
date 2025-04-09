@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="es">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+  </head>
+  
+  <body>
+    <div id="cuerpo">
+      <header id="cabecera">
+        <h5>VirtualStore</h5>
+      </header>
+  
+      <nav id="menu">
+        <a href="#Tecnologia" class="nav-enlace">Tecnologia</a>
+        <a href="#Hogar" class="nav-enlace">Hogar</a>
+        <a href="#mascotas" class="nav-enlace">mascotas</a>
+        <a href="#Cacharreria" class="nav-enlace">Cacharreria</a>
+      </nav>
+  
+      <section id="seccion">
+        <article class="articulo">Quienes somos</article>
+        <article class="articulo">Nuestros aliados</article>
+        <article class="articulo">Contactar a un asesor</article>
+      </section>
+  
+      <aside id="lateral">
+        <form name="formulario">
+          <h2>Formulario Web</h2>
+          <table border="0">
+            <tr>
+              <td>Nombre:</td>
+              <td><input type="text" name="txtnombre" required></td>
+            </tr>
+            <tr>
+              <td>Correo:</td>
+              <td><input type="email" name="miemail" placeholder="Ingrese email"></td>
+            </tr>
+            <tr>
+              <td>Estrato:</td>
+              <td><input type="number" name="numbEst" min="1" max="6" step="1"></td>
+            </tr>
+            <tr>
+              <td>Fecha:</td>
+              <td><input type="date" name="fecha" required></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="submit" name="btnEnviar" value="Enviar"></td>
+            </tr>
+          </table>
+        </form>
+      </aside>
+  
+      <footer id="pie">
+        <img class="logo" src="imagenes/Virtualstore.png" alt="Logo VirtualStore">
+      </footer>
+    </div>
+  </body>
+  
+  </html>
